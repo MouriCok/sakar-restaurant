@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Kg Sakar Official</title>
+    <link rel="stylesheet" href="restaurant.css">
+  </head>
+  <body>
+    <div id="page-menu" class="page-icon">
+      <a href="index.html">Home Page</a>
+      <div id="page-icon-dropdown" class="page-icon-dropdown">
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="admin.html">Admin</a>
+        <a href="about.html">Contact</a>
+      </div>
+    </div>
+    <button class="scroll" onclick="document.body.scrollIntoView({behavior: 'smooth'})"><strong>UP</strong></button>
+    <h1>Welcome to <u>Kampung Sakar Restaurant</u></h1>
+    <p class="border">
+      We are a family owned restaurant that has been around since 2000 and we serve village cuisine themed dishes made with local ingredients guaranteed to be fresh. 
+      We have a variety of dishes on our menu that are commonly found in small restaurants found in the countryside and also have rare dishes. 
+      Not only that, our menu also provides vegetarian options. 
+      <br><br>
+      So what are you waiting for?! Make a reservation or stop by today!
+      <br><br>
+      - Encik Bakhtiar -
+    </p>
+    <img src="../Assignment 1/chicken cheesy burger.png" alt="Signature Burger" class="right">
+    <h4 class="signature">Signature Burger</h4>
+    <img src="../Assignment 1/nasi-kandar.png" alt="Signature Burger" class="left">
+    <h5 class="promo"><u><a href="reservation.html">Our Limited Menu is Here</a></u>
+      <br><br>NASI KANDAR SPECIAL</h5>
+    <h5 class="promo2">Grab it NOW before its too late!
+      <br>Like You who lost her because You're too slow to make a decision.
+      <br>Grab it NOW so You can eat while thinks about her..</h5>
+    <script>
+      const borderElement = document.querySelector('.border');
+
+      const colors = ['darkkhaki', 'yellow', 'orange', 'darkorange', 'darkgoldenrod'];
+
+      let currentIndex = 0;
+
+      setInterval(function() {
+        borderElement.style.borderColor = colors[currentIndex];
+
+        currentIndex = (currentIndex + 1) % colors.length;
+      }, 1000);
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
