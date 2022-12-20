@@ -89,17 +89,17 @@
 
   @font-face {
     font-family: 'Indie Flower';
-    src: url(../Assignment\ 1/Indie_Flower/IndieFlower-Regular.ttf)
+    src: url(IndieFlower-Regular.ttf)
     format('truetype');
   }
   @font-face {
     font-family: 'Pacifico';
-    src: url(../Assignment\ 1/Pacifico/Pacifico-Regular.ttf)
+    src: url(Pacifico-Regular.ttf)
     format('truetype');
   }
   @font-face {
     font-family: 'Lobster';
-    src: url(../Assignment\ 1/Lobster/Lobster-Regular.ttf)
+    src: url(Lobster-Regular.ttf)
     format('truetype');
   }
   h1 {
@@ -107,7 +107,7 @@
     font-size: 28px; 
     text-align: center; 
     margin: 50px auto;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico';
   }
   h2 {
     color: #f9d423;
@@ -131,7 +131,7 @@
     color: white;  
     font-size: 24px; 
     text-align: justify;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
     font-weight: 700;
     padding: 20px;
   }
@@ -172,7 +172,7 @@
     color: white; 
     font-size: 24px; 
     text-align: justify;
-    font-family: 'Indie Flower', monospace;
+    font-family: 'Indie Flower';
     font-weight: 700;
     padding: 20px;
   }
@@ -189,6 +189,8 @@
   }
   .left {
     float: left;
+    display: flex;
+    flex-direction: column;
     width: 500px;
     height: 500ox;
     margin-left: 30px;
@@ -199,7 +201,7 @@
     float: right;
     color: white;
     font-size: 30px;
-    font-family: 'Indie Flower', sans-serif;
+    font-family: 'Indie Flower';
     margin-top: 15px;
     margin-right: 190px;
   }
@@ -250,7 +252,7 @@
     background: #f9d423;  
     color: black; 
     font-size: 16px;  
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
     font-weight: 700;
     padding: 30px;  
   }
